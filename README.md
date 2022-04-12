@@ -1,6 +1,6 @@
 # lakeapp
 
-A new Flutter project.
+A Flutter Example project with Pic, text and icons.
 
 ## Getting Started
 
