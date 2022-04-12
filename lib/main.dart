@@ -89,15 +89,13 @@ class _MyHomePageState extends State<MyHomePage> {
       );
     }
 
-    Widget buttonSection = Container(
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          buildButtonColumn(Icons.call, 'CALL'),
-          buildButtonColumn(Icons.near_me, 'ROUTE'),
-          buildButtonColumn(Icons.share, 'SHARE'),
-        ],
-      ),
+    Widget buttonSection = Row(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        buildButtonColumn(Icons.call, 'CALL'),
+        buildButtonColumn(Icons.near_me, 'ROUTE'),
+        buildButtonColumn(Icons.share, 'SHARE'),
+      ],
     );
 
     Widget textSection = Container(
